@@ -12,8 +12,22 @@ assignees: ''
 **So that** [benefit]
 ### Details and Assumptions
     * [document what you know]
-### Acceptance Criteria
-    gherkin
+    ### Acceptance Criteria
+
+    **As a** Full-stack developer
+    **I need** to document what I know about the GiftLink project
+    **So that** the team has a clear understanding of the project's scope, requirements, and progress
+
+    ### Details and Assumptions
+    * Documentation should include project goals, architecture, and technical details
+    * It should be accessible to all team members and updated regularly
+
+    ### Acceptance Criteria
+    Given the current state of the project
+    When I document what I know
+    Then the documentation should be clear, comprehensive, and up-to-date
+
+    **Label:** `technical debt`   gherkin
     Given [some context]
     When [certain action is taken]
     Then [the outcome of action is observed]
