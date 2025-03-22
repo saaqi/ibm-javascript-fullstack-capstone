@@ -104,6 +104,11 @@ router.put('/update', async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
+    if (!req.headers.email) {
+        logger.error('Email is missing in the request headers');
+        return res.status(400).json({ error: "Email is required in the request headers" });
+    }
+
     try {
         const email = req.headers.email;
 
